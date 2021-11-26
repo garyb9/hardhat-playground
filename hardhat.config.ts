@@ -49,6 +49,17 @@ const config: HardhatUserConfig = {
       accounts:
         process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
+    // ganache: {
+    //   // port: '8545',
+    //   // url: 'HTTP://127.0.0.1:8545'
+    // },
+    // hardhat: {
+    //   chainId: 1337,
+    //   forking: {
+    //     enabled: true,
+    //     url: `https://rinkeby.infura.io/v3/${process.env.WEB3_INFURA_PROJECT_ID}`,
+    //   },
+    // },
   },
   gasReporter: {
     enabled: process.env.REPORT_GAS !== undefined,
