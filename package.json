@@ -23,7 +23,7 @@
     "@nomiclabs/buidler": "^1.4.8",
     "@opengsn/provider": "^2.2.2",
     "@openzeppelin/contracts": "^4.4.1",
-    "@openzeppelin/contracts-upgradeable": "^4.3.1",
+    "@openzeppelin/contracts-upgradeable": "^4.4.2",
     "@typechain/ethers-v5": "^7.2.0",
     "@typechain/hardhat": "^2.3.1",
     "@types/chai": "^4.2.22",
